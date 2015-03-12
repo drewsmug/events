@@ -1,0 +1,41 @@
+#search {
+	background: #eaeaea;
+	float: left;
+	padding: 40px 10px 40px 10px;
+	margin: 0px 10px 0px 10px;
+	text-align: left;
+	color: #2e2e2e;
+	font-family: 'Roboto Slab', serif;
+}
+
+#search_field_container {
+	display: inline;
+}
+
+#city_search_matches {
+	position: absolute;
+	background: #eaeaea;
+	background: #f6f6f6;
+	width: 294px;
+
+	display: none;
+
+	border-color: #2e2e2e;
+    border-style: solid;
+    border-width: 0px 2px 2px 2px;
+    /*padding:5px 20px 5px 20px;*/
+}
+
+#city_search_matches ul {
+	list-style: none;
+}
+
+#city_search_matches li {
+	background: none;
+    padding:5px 20px 5px 20px;
+	width: 294;
+}
+
+#city_search_matches li:hover {
+	background: #d2d2d2;
+}

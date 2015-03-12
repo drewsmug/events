@@ -1,0 +1,21 @@
+<h1>Edit Your Account Profile</h1>
+
+<div id="error_message" class="${error_class}">${error_message}</div>
+<br />
+
+<div id="register_form">
+	<form method="POST" action="/user/edit">
+		<input type="text" name="first_name" placeholder="First Name" value="${first_name}" required>
+		<input type="text" name="last_name" placeholder="Last Name" value="${last_name}" required>
+		<input type="password" name="curr_password" placeholder="Current Password">
+		<input type="password" name="new_password" placeholder="New Password">
+		<input type="password" name="new_password_confirm" placeholder="New Password Confirmation">
+		<input type="hidden" name="page" value="profile">
+		<div id="profile_change_email">
+			<a href="/user/email/new">Update your email address</a>
+		</div>
+		<div id="reg_submit">
+			<input type="submit" value="Update">
+		</div>
+	</form>
+</div>

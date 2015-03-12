@@ -1,0 +1,32 @@
+h2 {
+	margin: 30px 0 10px 0;
+}
+
+h4 {
+	margin: 0px 0px 10px 0;
+}
+
+#about {
+	display: inline-block;
+    text-align: left;
+}
+
+.team_member {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.team_member img {
+	border-color: #000000;
+	border-style: solid;
+	border-width: 1px;
+    margin: 0 0 10px 0;
+}
+
+ul {
+    margin: 0 0 0 40px;
+}
+
+.team_member p {
+    margin: 7px 0 0 0;
+}

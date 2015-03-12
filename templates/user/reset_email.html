@@ -1,0 +1,15 @@
+<h1>Reset Your Account Email Address</h1>
+
+<div id="error_message" class="${error_class}">${error_message}</div>
+<br />
+
+<div id="reset_email">
+	<form method="GET" action="/user/email/reset">
+		<input type="text" name="key" placeholder="Activation Key" value="${key}" required>
+		<input type="hidden" name="page" value="reset_email">
+		<div id="reset_email_submit">
+			<input type="submit" value="Reset">
+		</div>
+	</form>
+</div>
+<br />

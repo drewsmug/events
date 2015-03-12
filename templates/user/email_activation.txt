@@ -1,0 +1,7 @@
+Hey ${first_name},
+
+Thanks for signing up with ${site_name}. To activate your account, click the following link within 48 hours:
+http://${site_sub_domain}.fon-tech.com/user/activate?email=${email}&key=${key}
+
+Regards,
+Ivan & Andrew

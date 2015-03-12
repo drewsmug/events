@@ -1,0 +1,7 @@
+Hey ${first_name},
+
+To update your new email address just click the following link within 48 hours:
+http://${site_sub_domain}.fon-tech.com/user/email/reset?key=${key}
+
+Regards,
+Ivan & Andrew

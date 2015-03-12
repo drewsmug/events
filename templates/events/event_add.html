@@ -1,0 +1,134 @@
+<h1>Create an Event</h1>
+
+<div id="error_message" class="${error_class}">${error_message}</div>
+<br />
+
+<div id="event_form">
+	<form method="POST" action="/events/add">
+		<input type="text" name="title" placeholder="Title" value="${title}" required>
+        <div id="start_date">
+            <select name="month" class="month" required>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3" selected>March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+            <select name="day" class="day" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <select name="year" class="year" required>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+            </select>
+        </div>
+        <div id="time">
+        <div id="start_time">
+            <select name="start_hour" class="hour" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7" selected>7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <select name="start_minute" class="minute" required>
+                <option value="00">00</option>
+                <option value="15">15</option>
+                <option value="30">30</option>
+                <option value="45">45</option>
+            </select>
+            <select name="start_meridiem" class="meridiem" required>
+                <option value="pm">pm</option>
+                <option value="am">am</option>
+            </select>
+        </div>
+        <strong>-</strong>
+        <div id="end_time">
+            <select name="end_hour" class="hour" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10" selected>10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <select name="end_minute" class="minute" required>
+                <option value="00">00</option>
+                <option value="15">15</option>
+                <option value="30">30</option>
+                <option value="45">45</option>
+            </select>
+            <select name="end_meridiem" class="meridiem" required>
+                <option value="pm">pm</option>
+                <option value="am">am</option>
+            </select>
+        </div>
+        </div>
+		<input type="file" name="image">
+        <textarea name="description" placeholder="Description" required></textarea>
+		<input type="text" name="address1" placeholder="Address 1" value="${address1}">
+		<input type="text" name="address2" placeholder="Address 2" value="${address2}">
+		<div id="search_field_container">
+		    <input type="text" name="city" id="search_input" autocomplete="off" placeholder="City, ST" required>
+            <div id="city_search_matches">
+            </div>
+        </div>
+		<input type="text" name="zip" placeholder="zip" value="${zip}">
+		<input type="text" name="url" placeholder="website address" value="${url}">
+		<input type="hidden" name="page" value="event_add">
+		<div id="event_submit">
+			<input type="submit" value="Create">
+		</div>
+	</form>
+</div>

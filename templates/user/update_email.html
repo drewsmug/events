@@ -1,0 +1,15 @@
+<h1>Reset Account Email</h1>
+
+<div id="error_message" class="${error_class}">${error_message}</div>
+<br />
+
+<div id="update_email_form">
+	<form method="POST" action="/user/email/new">
+		<input type="email" name="email" placeholder="New Email" value="${email}" required>
+		<input type="password" name="password" placeholder="Password" value="${password}" required>
+		<input type="hidden" name="page" value="update_email">
+		<div id="update_password_submit">
+			<input type="submit" value="Send Email">
+		</div>
+	</form>
+</div>

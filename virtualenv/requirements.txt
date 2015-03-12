@@ -1,0 +1,4 @@
+passlib==1.6.2
+pycscope==1.2.1
+pymongo==2.8
+Werkzeug==0.10.1

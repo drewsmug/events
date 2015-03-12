@@ -1,0 +1,22 @@
+<h1>Create your ${site_name} Account</h1>
+
+<div id="error_message" class="${error_class}">${error_message}</div>
+<br />
+
+<div id="register_form">
+	<form method="POST" action="/user/register">
+		<input type="email" name="email" placeholder="Email" value="${email}" required>
+		<input type="text" name="first_name" placeholder="First Name" value="${first_name}" required>
+		<input type="text" name="last_name" placeholder="Last Name" value="${last_name}" required>
+		<input type="password" name="password" placeholder="Create a Password" required>
+		<input type="password" name="confirmation" placeholder="Confirm your Password" required>
+		<input type="hidden" name="page" value="register">
+		<div id="tos">
+			<input type="checkbox" name="tos" required>
+			Accept <a href="/terms" target="_blank">Terms</a>
+		</div>
+		<div id="reg_submit">
+			<input type="submit" value="Register">
+		</div>
+	</form>
+</div>

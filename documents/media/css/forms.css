@@ -1,0 +1,67 @@
+input[type=submit] {
+	color: #2e2e2e;
+	background: none;
+	border-color: #2e2e2e;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	font-weight: bold;
+	outline: none;
+	padding:10px 20px 10px 20px;
+}
+
+input[type=submit]:hover {
+	background: #d2d2d2;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=search],
+select{
+	background: none;
+	font-weight: bold;
+	border-color: #2e2e2e;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	padding:10px 20px 10px 20px;
+	width: 294px;
+	/* Fixes Firefox's orange error border on required form fields*/
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	/* Fixes Chrome's added dropshadow */
+	outline: none;
+}
+
+input[type=text]:hover,
+input[type=password]:hover,
+input[type=email]:hover,
+input[type=search]:hover {
+	background: #d2d2d2;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=search]:focus {
+	background: #d2d2d2;
+}
+
+/* Prevents Chrome autofill from changing background colors */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #eaeaea inset;
+}
+
+textarea {
+	border-color: #2e2e2e;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	background: none;
+	background: #f6f6f6;
+	width: 500px;
+	height: 150px;
+	padding:10px 20px 10px 20px;
+	outline: none;
+	font-weight: bold;
+	/* Fixes Firefox's orange error border on required form fields*/
+	box-shadow: none;
+}

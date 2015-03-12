@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>${title}</title>
+	<link rel="stylesheet" type="text/css" href="${DOCUMENT_ROOT}css/main.css">
+	<link rel="stylesheet" type="text/css" href="${DOCUMENT_ROOT}css/header.css">
+	${css_includes}
+</head>
+
+	<body>
+		<div id="header">
+			${header}
+		</div>
+
+		<div id="content_container">
+			${content}
+		</div>
+
+		<div id="footer">
+			<ul>
+				<li>
+					<a href="/feedback">Feedback</a>
+				</li>
+				<li>
+					<a href="/terms">Terms</a>
+				</li>
+			</ul>
+		</div>
+
+		${js_includes}
+	</body>
+
+</html>

@@ -1,0 +1,28 @@
+<h1>We appreciate any and all Feedback</h1>
+
+<div id="error_message" class="${error_class}">${error_message}</div>
+<br />
+
+<div id="feedback_form">
+	<form method="POST" action="/feedback">
+		<ul>
+			<li>
+				<input type="radio" name="comment_type" value="defect">
+				Defect
+			</li>
+			<li>
+				<input type="radio" name="comment_type" value="criticism">
+				Criticism
+			</li>
+			<li>
+				<input type="radio" name="comment_type" value="other" checked>
+				Other
+			</li>
+		</ul>
+		<textarea name="comment" placeholder="Leave your comment here." required></textarea>
+		<input type="hidden" name="page" value="feedback">
+		<div id="reg_submit">
+			<input type="submit" value="Submit">
+		</div>
+	</form>
+</div>

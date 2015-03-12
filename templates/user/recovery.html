@@ -1,0 +1,18 @@
+<h1>Reset Your Password</h1>
+
+<div id="error_message" class="${error_class}">${error_message}</div>
+<br />
+
+<div id="recover_user">
+	<form method="POST" action="/user/recovery">
+		<input type="email" name="email" placeholder="Email" value="${email}" required>
+		<input type="text" name="key" placeholder="Activation Key" value="${key}" required>
+		<input type="password" name="password" placeholder="Create a Password" required>
+		<input type="password" name="confirmation" placeholder="Confirm your Password" required>
+		<input type="hidden" name="page" value="recovery">
+		<div id="recover_user_submit">
+			<input type="submit" value="Reset">
+		</div>
+	</form>
+</div>
+<br />

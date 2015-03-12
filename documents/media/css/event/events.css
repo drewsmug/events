@@ -1,0 +1,16 @@
+#event_content {
+	display: inline-block;
+	margin: 0 0 0 0;
+}
+
+#event{
+	float: left;
+	padding: 10px 10px 10px 10px;
+	width: 500px;
+	text-align: left;
+}
+
+#event p {
+	margin: 0;
+	padding: 0;
+}

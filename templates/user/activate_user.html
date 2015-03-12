@@ -1,0 +1,16 @@
+<h1>Activate your user account for ${site_name}</h1>
+
+<div id="error_message" class="${error_class}">${error_message}</div>
+<br />
+
+<div id="activate_user">
+	<form method="GET" action="/user/activate">
+		<input type="email" name="email" placeholder="Email" value="${email}" required>
+		<input type="text" name="key" placeholder="Activation Key" value="${key}" required>
+		<input type="hidden" name="page" value="activate">
+		<div id="activate_user_submit">
+			<input type="submit" value="Activate">
+		</div>
+	</form>
+</div>
+<br />

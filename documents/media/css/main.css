@@ -1,0 +1,44 @@
+@import url("reset.css");
+@import url("forms.css");
+@import url("footer.css");
+
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab");
+
+body {
+	background: #f6f6f6;
+	margin: 0px 0px 0px 0px;
+	font-family: 'Roboto Slab', serif;
+}
+
+#content_container {
+	overflow: hidden;
+	margin: 50px auto 0px auto;
+	text-align: center;
+}
+
+a:link {
+	color: #ff8000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ff8000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff8000;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #ff8000;
+	text-decoration: underline;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}

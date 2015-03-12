@@ -1,0 +1,35 @@
+#feedback_form {
+	background: #eaeaea;
+	display: inline-block;
+	padding: 40px 10px 40px 10px;
+	margin: 50px 0 0 0;
+	text-align: left;
+}
+
+#reg_submit {
+	text-align: right;
+}
+
+#feedback_form ul {
+	list-style: none;
+	margin: 0 0 20px 0;
+}
+
+#feedback_form li {
+	display: inline;
+}
+
+#feedback_success {
+	display: inline-block;
+	padding: 20px 20px 20px 20px;
+	margin: 0px 20px;
+	text-align: justify;
+	width: 700px;
+
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+}
+
+h1 {
+	margin: 0 0 20px 0;
+}

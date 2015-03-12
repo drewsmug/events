@@ -1,0 +1,33 @@
+body {
+	background: url("../images/group.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#index_content {
+	display: inline-block;
+}
+
+#index {
+	float: left;
+	padding: 10px 10px 10px 10px;
+	width: 500px;
+	text-align: left;
+	overflow: hidden;
+}
+
+#index p {
+	margin: 0;
+	padding: 0;
+}
+
+#search {
+	background: rgb(234, 234, 234);
+	background: rgba(234, 234, 234, .5);
+}
+
+#footer {
+	display: none;
+}
